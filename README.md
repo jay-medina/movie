@@ -12,4 +12,4 @@ Tech
 - Tailwind CSS
 - ESLint
 - Jest
-- snowpack
+- snowpack ( https://www.snowpack.dev/)

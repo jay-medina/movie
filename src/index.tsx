@@ -1,8 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { App } from "./App";
 
-function MyApp() {
-    return <div>This is my app</div>;
-}
-
-ReactDOM.render(<MyApp />, document.getElementById("app"));
+ReactDOM.render(<App />, document.getElementById("app"));
