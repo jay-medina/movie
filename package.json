@@ -1,0 +1,29 @@
+{
+    "name": "movie",
+    "version": "1.0.0",
+    "description": "Movie app using imdb api",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jayem9000/movie.git"
+    },
+    "keywords": [
+        "movie",
+        "imdb",
+        "typescript",
+        "snowpack",
+        "tailwind"
+    ],
+    "author": "jayem9000",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/jayem9000/movie/issues"
+    },
+    "homepage": "https://github.com/jayem9000/movie#readme",
+    "devDependencies": {
+        "snowpack": "^2.18.4"
+    }
+}
