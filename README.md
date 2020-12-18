@@ -5,11 +5,11 @@ Movie application
 Uses api from https://www.themoviedb.org/
 
 Tech
-- TypeScript
+- TypeScript (https://www.typescriptlang.org/)
 - React
 - Redux / Recoil / thunks
 - Immer
 - Tailwind CSS
-- ESLint
-- Jest
+- ESLint (https://eslint.org/)
+- Jest (https://jestjs.io/)
 - snowpack ( https://www.snowpack.dev/)

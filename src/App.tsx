@@ -1,20 +1,20 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 export function App(): JSX.Element {
     const [count, setCount] = useState(0);
 
-    useEffect(() => {
-        const timer = setTimeout(() => setCount(count + 1), 1000);
-        return () => clearTimeout(timer);
-    }, [count]);
+    const onClick = () => {
+        setCount(count + 1);
+    };
 
     return (
         <div className="App">
-            <header className="App-header">
-                <p>
-                    Page has been open for <code>{count}</code> seconds.
-                </p>
-            </header>
+            <h2 className="App-header">
+                Page has been open for <code>{count}</code> seconds.
+            </h2>
+            <p>
+                <button onClick={onClick}>Click me</button>
+            </p>
         </div>
     );
 }
